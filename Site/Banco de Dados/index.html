@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Dados</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="../Página Inicial/index.html" id="return_top">
+            <i class="bi bi-caret-left"></i>
+            Voltar
+        </a>
+    </header>
+
+    <main>
+        <section id="text">
+            <h2 id="title">
+                Banco de Dados
+            </h2>   
+            <p>
+                Para o início do estudo de banco de dados, a introdução a alguns determinados tópicos foi necessária, minimundo, MER e DER, isso se deu por se tratarem de métodos para o desenvolvimento inicial do banco de dados, onde podemos analisar a ideia inicial e adequar ela as necessidades do banco de dados. Posteriormente os relacionamentos e as entidades foram trabalhados, afinal para o desenvolvimento do banco de dados com os métodos citados fazemos uso desses elementos.
+            </p>
+            <p>
+                Outro tópico abordado foram as 3 formas normais de bancos de dados, normas essas que visam eliminar redundâncias e inconsistências em um banco de dados relacional. Ainda existem outras duas, que não foram abordadas no decorrer das aulas, e que se aplicam apenas em situações mais complexas e específicas.
+            </p>
+            <p>
+                1ª Forma Normal (1NF): Nesta forma normal, as tabelas devem possuir uma estrutura tabular, ou seja, os valores em cada coluna devem ser atômicos, não sendo permitido agrupar múltiplos valores em uma única célula. Além disso, cada tabela deve possuir uma chave primária única que identifica de forma única cada registro.
+            </p>
+            <p>
+                2ª Forma Normal (2NF): Nesta forma normal, além de atender aos critérios da 1NF, cada coluna não chave deve depender completamente da chave primária, e não de apenas uma parte dela. Isso significa que as dependências funcionais devem ser eliminadas, movendo as colunas dependentes para outras tabelas.
+            </p>
+            <p>
+                3ª Forma Normal (3NF): Nesta forma normal, além de atender aos critérios da 2NF, não devem existir dependências transitivas, ou seja, uma coluna não chave não deve depender de outra coluna não chave. Para eliminar essas dependências, é necessário criar tabelas adicionais.
+            </p>
+            <p>
+                Com as ideias básicas referentes a modelagem de banco de dados, realizamos uma lista de exercícios onde eram apresentados os minimundos e era necessária a construção de um DER com base nesse conteúdo.
+            </p>
+            <section id="imgs">
+                <div id="slider">
+    
+                    <div id="slides6">
+                        <input type="radio" name="radio_btn" id="radio1A">
+                        <input type="radio" name="radio_btn" id="radio2A">
+                        <input type="radio" name="radio_btn" id="radio3A">
+                        <input type="radio" name="radio_btn" id="radio4A">
+                        <input type="radio" name="radio_btn" id="radio5A">
+                        <input type="radio" name="radio_btn" id="radio6A">
+    
+                        <div id="slide6" class="first">
+                            <img src="./img/Exercicio 01 Estrutura de dados.drawio.png" alt="">
+                        </div>
+                        <div id="slide6">
+                            <img src="./img/Exercicio 02 Estrutura de dados.drawio(1).png" alt="">
+                        </div>
+                        <div id="slide6">
+                            <img src="./img/Exercicio 03 Estrutura de dados.drawio.jpeg" alt="">
+                        </div>
+                        <div id="slide6" class="first">
+                            <img src="./img/Exercicio 04 Estrutura de dados.drawio.png" alt="">
+                        </div>
+                        <div id="slide6">
+                            <img src="./img/Exercicio 05 Estrutura de dados.drawio.png" alt="">
+                        </div>
+                        <div id="slide6">
+                            <img src="./img/Projeto.png" alt="">
+                        </div>
+                        <div id="navigation">
+                            <label id="manual_btn" for="radio1A"></label>
+                            <label id="manual_btn" for="radio2A"></label>
+                            <label id="manual_btn" for="radio3A"></label>
+                            <label id="manual_btn" for="radio4A"></label>
+                            <label id="manual_btn" for="radio5A"></label>
+                            <label id="manual_btn" for="radio6A"></label>
+                        </div>
+                    </div>
+            </section>
+            <p>
+                Após a finalização desses exercícios, cada um deles foi direcionado a uma equipe, e então realizamos o desenvolvimento do modelo físico desse exercício. Para isso o Postgree, um SGBD (Sistema de Gerenciamento de Banco de Dados), foi utilizado na criação das tabelas e suas relações. Para essa construção foram utilizados comandos DDL (Data Definition Language) como o “CREATE”, “ALTER” e “DROP”. Já para a população da tabela fizemos uso de um comando DML, o "INSERT".
+            </p>
+            <p>
+                Com a apresentação dos bancos criados, foi solicitada a realização de comando DQL (Data Query Language) para a apresentação de determinados dados específicos, para aferir nosso conhecimento dobre esses comandos.
+            </p>
+        </section>
+        <section id="imgs">
+            <div id="slider">
+
+                <div id="slides3">
+                    <input type="radio" name="radio_btn" id="radio1A">
+                    <input type="radio" name="radio_btn" id="radio2A">
+                    <input type="radio" name="radio_btn" id="radio3A">
+
+                    <div id="slide3" class="first">
+                        <img src="./img/Projeto1.png" alt="">
+                    </div>
+                    <div id="slide3">
+                        <img src="./img/Projeto2.png" alt="">
+                    </div>
+                    <div id="slide3">
+                        <img src="./img/Projeto3.png" alt="">
+                    </div>
+                    <div id="navigation">
+                        <label id="manual_btn" for="radio1A"></label>
+                        <label id="manual_btn" for="radio2A"></label>
+                        <label id="manual_btn" for="radio3A"></label>
+                    </div>
+                </div>
+        </section>
+        <section id="return">
+            <a href="../Página Inicial/index.html" id="return_bottom">
+                <i class="bi bi-caret-left"></i>
+                Voltar
+            </a>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2023 Matheus Paes de Camargo Vieira</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
