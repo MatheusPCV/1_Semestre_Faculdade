@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes de Computadores</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="../Página Inicial/index.html" id="return_top">
+            <i class="bi bi-caret-left"></i>
+            Voltar
+        </a>
+    </header>
+
+    <main>
+        <section id="text">
+            <h2 id="title">
+                Redes de Computadores
+            </h2>
+            <p>
+                Para darmos início ao conteúdo de redes, primeiramente estudamos conceitos básicos a fim de
+                nivelar o conhecimento de todos sobre a temática. Nos foram apresentados os tipos de rede,
+                sendo eles PAN (Personal Area Network), CAN - Controller Area Network, LAN - Local Area
+                Network, MAN - Metropolitan Area Network, WAN - Wide Area Network.
+            </p>
+            <p>
+                A topologia também foi um dos assuntos iniciais, já que se trata da forma em que a rede foi
+                desenvolvida, seja de maneira física, a forma que se da a conexão dos cabos, ou lógica, o
+                modo de circulação dos dados.
+            </p>
+        </section>
+        <section id="imgs">
+            <div id="slider">
+
+                <div id="slides2">
+                    <input type="radio" name="radio_btn" id="radio1A">
+                    <input type="radio" name="radio_btn" id="radio2A">
+
+                    <div id="slide2" class="first">
+                        <img src="./img/Redimensionado/Currículo.png" alt="">
+                    </div>
+                    <div id="slide2">
+                        <img src="./img/Redimensionado/Carta de Apresentação.png" alt="">
+                    </div>
+                </div>
+                <div id="navigation">
+                    <label id="manual_btn" for="radio1A"></label>
+                    <label id="manual_btn" for="radio2A"></label>
+                </div>
+            </div>
+        </section>
+        <section id="text">
+            <p>
+                Em seguida nos foi apresentado o HTML Semântico, uma forma um pouco mais adequada de trabalhar com
+                o HTML, por utilizar elementos que têm um significado claro e descritivo, tornando o código mais
+                legível e compreensível para os desenvolvedores. Para colocarmos em prática nossa nova competência
+                desenvolvemos uma outra atividade, porém esse trabalho foi realizado em duplas. Nele deveríamos
+                “clonar” uma página já desenvolvida pelo professor, mas com nossas próprias peculiaridades, além
+                de também pesquisar efeitos gerados pelo CSS que não foram mostrados anteriormente. Dessa forma
+                não só exercitamos o novo conhecimento obtido, mas também demos nossos primeiros passos para
+                a busca de saberes fora dos passados em sala de aula.
+            </p>
+            <p>
+                Posteriormente conhecemos as 7 camadas do modelo OSI suas funções e características. Elas são:
+            </p>
+            <p>
+                1. Camada Física: É responsável pela transmissão e recepção dos bits brutos por meio de um meio de
+                comunicação físico, como cabos de rede. Lida com as características elétricas, mecânicas e físicas
+                da transmissão de dados.
+            </p>
+            <p>
+                2. Camada de Enlace de Dados: Gerencia a transmissão confiável de dados entre dois nós adjacentes
+                na rede. Trata de problemas como detecção de erros, controle de fluxo e acesso ao meio.
+            </p>
+            <p>
+                3. Camada de Rede: Lida com o roteamento dos pacotes de dados pela rede. Determina a melhor
+                rota para enviar os pacotes do ponto de origem ao destino, levando em consideração fatores
+                como congestionamento, priorização e endereçamento lógico.
+            </p>
+            <p>
+                4. Camada de Transporte: Fornece serviços de transporte confiáveis e transparentes para os
+                processos de aplicação. Divide os dados em segmentos, fornece controle de fluxo e controle
+                de erros para garantir que os dados cheguem corretamente e em ordem.
+            </p>
+            <p>
+                5. Camada de Sessão: Estabelece, mantém e encerra sessões de comunicação entre os aplicativos
+                em diferentes dispositivos. Gerencia a troca de dados entre os pontos de extremidade, incluindo
+                sincronização, controle de diálogo e recuperação em caso de falhas.
+            </p>
+            <p>
+                6. Camada de Apresentação: Lida com a representação dos dados em um formato compreensível
+                para as aplicações. Realiza funções como criptografia, compressão, conversão de formatos
+                e tradução de caracteres.
+            </p>
+            <p>
+                7. Camada de Aplicação: Fornece interfaces para que os aplicativos acessem os serviços de
+                rede. Inclui protocolos como HTTP, FTP, SMTP, DNS, que permitem a comunicação e o
+                compartilhamento de dados entre aplicativos em diferentes dispositivos.
+            </p>
+            <p>
+                Além disso, as principais características e diferenças de UDP e TCP nos foram apresentadas. Ambos os
+                protocolos de comunicação estão na camada de transporte do modelo OSI (Open Systems Interconnection). No
+                entanto, existem algumas diferenças significativas entre os dois:
+            </p>
+            <p>
+                1. Confiabilidade: O TCP é um protocolo confiável, o que significa que ele garante que todos os dados
+                enviados serão recebidos pelo destinatário sem erros ou perdas. O UDP, por outro lado, não é confiável e
+                não garante a entrega de dados.
+            </p>
+            <p>
+                2. Controle de fluxo: O TCP implementa o controle de fluxo para garantir que o transmissor não envie
+                mais dados do que o receptor pode processar. O UDP não possui esse recurso.
+            </p>
+            <p>
+                3. Orientação à conexão: O TCP é um protocolo orientado à conexão, o que significa que ele estabelece
+                uma conexão antes que os dados sejam transmitidos. O UDP é um protocolo sem conexão, o que significa que
+                ele não estabelece uma conexão antes da transmissão de dados.
+            </p>
+            <p>
+                4. Overhead: O TCP tem um overhead maior do que o UDP, já que ele adiciona informações adicionais para
+                garantir a confiabilidade dos dados. O UDP tem um overhead mínimo.
+            </p>
+            <p>
+                Em resumo, o TCP é uma escolha mais apropriada quando a confiabilidade e a integridade dos dados são
+                cruciais, enquanto o UDP é mais adequado quando a velocidade e a eficiência são mais importantes do que
+                a confiabilidade.
+            </p>
+            <p>
+                Ainda na camada de rede temos o IP e a máscara de rede. O IP atribui um endereço único a cada
+                dispositivo, enquanto a máscara de rede define a estrutura da rede e permite a comunicação entre
+                dispositivos dentro da mesma rede e entre redes diferentes.
+            </p>
+            <p>
+                Por fim, o IPv4 e o IPv6 são protocolos essenciais no campo das redes de computadores. Estudamos em
+                detalhes esses protocolos, sendo o IPv4 um protocolo de camada de rede que utiliza endereços de 32 bits,
+                enquanto o IPv6 utiliza endereços de 128 bits. A compreensão das diferenças entre eles, suas
+                características e implicações é crucial para o projeto e a implementação de redes modernas e escaláveis.
+            </p>
+            <p>
+                Após esse período de estudo teórico, desenvolvemos alguns projetos a fim de colocar em prática o
+                conhecimento adquirido. Para isso utilizamos o software Cisco Packet Tracer, onde conhecemos alguns
+                componentes essenciais para a criação de uma rede, como os switches, roteadores e servidores. Com o
+                devido conhecimento sobre esses componentes demos início ao desenvolvimento de 3 projetos, o primeiro
+                deles buscava apenas introduzir o conteúdo de forma prática, o segundo simulava a comunicação entre um
+                determinado aparelho localizado no Zimbabue com outro localizado no Cazaquistão, e por ultimo uma rede
+                que simulava a conexão de um funcionário que trabalha de casa (home office) para uma determinada
+                empresa.
+            </p>
+
+        </section>
+        <section id="imgs">
+            <div id="slider">
+
+                <div id="slides5">
+                    <input type="radio" name="radio_btn" id="radio1F">
+                    <input type="radio" name="radio_btn" id="radio2F">
+                    <input type="radio" name="radio_btn" id="radio3F">
+                    <input type="radio" name="radio_btn" id="radio4F">
+                    <input type="radio" name="radio_btn" id="radio5F">
+
+                    <div id="slide5" class="first">
+                        <img src="./img/Redimensionado/Salario 5.png" alt="">
+                    </div>
+                    <div id="slide5">
+                        <img src="./img/Redimensionado/Salario 1.png" alt="">
+                    </div>
+                    <div id="slide5">
+                        <img src="./img/Redimensionado/Salario 2.png" alt="">
+                    </div>
+                    <div id="slide5">
+                        <img src="./img/Redimensionado/Salario 3.png" alt="">
+                    </div>
+                    <div id="slide5">
+                        <img src="./img/Redimensionado/Salario 4.png" alt="">
+                    </div>
+                    <div id="navigation">
+                        <label id="manual_btn" for="radio1F"></label>
+                        <label id="manual_btn" for="radio2F"></label>
+                        <label id="manual_btn" for="radio3F"></label>
+                        <label id="manual_btn" for="radio4F"></label>
+                        <label id="manual_btn" for="radio5F"></label>
+                    </div>
+                </div>
+        </section>
+        <section id="return">
+            <a href="../Página Inicial/index.html" id="return_bottom">
+                <i class="bi bi-caret-left"></i>
+                Voltar
+            </a>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2023 Matheus Paes de Camargo Vieira</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
