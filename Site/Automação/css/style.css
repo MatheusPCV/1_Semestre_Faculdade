@@ -144,6 +144,11 @@ p {
     width: 70vw;
 }
 
+#link {
+    color: blue;
+    text-decoration: none;
+}
+
 
 /*SlideShow1*/
 #imgs {
