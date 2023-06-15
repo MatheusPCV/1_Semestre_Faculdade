@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciência de Dados</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="../Página Inicial/index.html" id="return_top">
+            <i class="bi bi-caret-left"></i>
+            Voltar
+        </a>
+    </header>
+
+    <main>
+        <section id="text">
+            <h2 id="title">
+                Ciência de Dados
+            </h2>
+            <p>
+                Para o estudo de ciência de dados fizemos o uso da plataforma Google Colab, portanto, para a utilização
+                prática dos conteúdos fizemos uso da linguagem python para gerar tabela, gráficos e cáculos. Também
+                utilizamos uma tabela que continha os passageiros do Titanic, e algumas informações sobre eles.
+            </p>
+            <p>
+                Inicialmente tratamos da amostragem e seus tipos. Ela nada mais é do que um processo de seleção de uma
+                parte representativa de uma população maior para análise e inferência estatística. Os tipos de
+                amostragem são:
+            </p>
+            <p>
+                1. Amostragem Aleatória Simples: <br>
+                Cada elemento da população tem a mesma chance de ser selecionado. <br>
+                É realizado através de sorteio aleatório, garantindo a representatividade da amostra
+
+            </p>
+            <p>
+                2. Amostragem Estratificada: <br>
+                A população é dividida em estratos ou subgrupos com características similares. <br>
+                São selecionadas amostras aleatórias de cada estrato proporcionalmente ao seu tamanho. <br>
+                Permite uma análise mais precisa em subgrupos específicos da população.
+
+            </p>
+            <p>
+                3. Amostragem por Conglomerados: <br>
+                A população é dividida em conglomerados (grupos) naturalmente existentes. <br>
+                São selecionados aleatoriamente alguns conglomerados e todos os elementos dentro deles são incluídos na
+                amostra. <br>
+                É útil quando é difícil ou impraticável obter uma lista completa de todos os elementos da população.
+
+            </p>
+            <p>
+                4. Amostragem Sistemática: <br>
+                Os elementos são selecionados de acordo com um padrão sistemático. <br>
+                Por exemplo, selecionando a cada 10º elemento após uma escolha aleatória inicial. <br>
+                Requer que a população esteja em alguma forma de ordem.
+
+            </p>
+            <p>
+                5. Amostragem por Conveniência: <br>
+                Os elementos são selecionados com base em sua disponibilidade e acessibilidade. <br>
+                Pode levar a viés e falta de representatividade, mas é útil em situações onde é difícil obter uma
+                amostra aleatória.
+
+            </p>
+            <p>
+                Para testarmos de forma prática como cada uma das amostragens funciona, utilizamos da tabela dos
+                passageiros do Titanic, fazendo a seleção de acordo com cada uma das formas de amostragem.
+            </p>
+            <p>
+                O Tópico seguinte foi tendência central, logo os conteúdos abordados foram moda (bimodal, polimodal e
+                amodal), média, media e percentil (quartil).
+            </p>
+            <p>
+                • Moda: A moda representa o valor mais frequente em um conjunto de dados. É o valor que ocorre com maior
+                frequência.
+            </p>
+            <p>
+                • Média: A média é a soma de todos os valores em um conjunto de dados dividida pelo número de elementos.
+                É uma medida que indica o valor médio do conjunto.
+            </p>
+            <p>
+                • Mediana: A mediana é o valor que divide um conjunto de dados ordenados ao meio. Metade dos valores é
+                maior que a mediana e metade é menor. É uma medida que indica o valor do centro.
+            </p>
+            <p>
+                • Percentil: O percentil é uma medida que indica a posição relativa de um valor em um conjunto de dados
+                ordenados.
+            </p>
+            <p>
+                Primeiramente para cada um dos tópicos realizamos exercícios fazendo uso de dados avulsos, que foram
+                criados momentaneamente apenas para testes em cada uma das medidas. Logo após isso fizemos uso dessas
+                novas medidas no banco de dados do Titanic, juntamente com a biblioteca matplotlib, para plotarmos
+                gráficos apresentando os dados coletados de forma mais agradável.
+            </p>
+            <p>
+                As medidas de dispersão, que são utilizadas para descrever a variabilidade ou dispersão dos dados em
+                relação a uma medida central, foram trabalhadas em grande parte apenas com a realização dos cálculos
+                utilizando a linguagem python. Amplitude, variância e desvio padrão foram calculados assim como
+                anteriormente de duas formas, com uso de dados criados especialmente para esses tópicos e posteriormente
+                para o tratamento dos dados presentes no banco de dados do Titanic. Nesse momento, apenas o desvio
+                padrão foi utilizado para plotar gráficos e tornar a visualização dos dados obtidos mais clara.
+            </p>
+            <p>
+                A hipótese estatística do Qui-quadrado (teste de independência entre variáveis categóricas), o teste de
+                Komogorov-Smirnov (usado para testar se uma amostra vem ou não de uma determinada distribuição), teste
+                de Shaphiro-Wilk (usado para determinar se uma amostra vem ou não de uma distribuição normal) e o teste
+                de Anderson-Darling (teste de qualidade de ajuste que mede o quão bem seus dados se ajustam a uma
+                distribuição especificada) foram os testes de hipótese trabalhados após as medidas de dispersão.
+            </p>
+            <p>
+                O Qui-quadrado foi o único trabalhado com o uso do banco de dados do Titanic, e todos eles foram
+                trabalhados com dados específicos para a exemplificação.
+            </p>
+            <p>
+                Já ao trabalharmos com a distribuição probabilística binominal e a regressão logística fizemos um uso
+                intenso da biblioteca matplotlib, realizando exercícios onde deveríamos exibir os gráficos com os dados
+                e elementos solicitados. Dentre elas, temos uma que solicitava a exibição de uma curva que separasse as
+                classes no gráfico de dispersão.
+            </p>
+
+        </section>
+        <section id="imgs">
+            <div id="slider">
+                <div id="slide3" class="first">
+                    <img src="./img/Dispersão.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="text">
+            <p>
+                Os últimos tópicos centrais que foram trabalhados foram as derivadas e as integrais. Durante esse estudo
+                foram abordados os limites, taxa de variação, os diversos tipos de funções e também as regras utilizadas
+                para o calculo da témarica central, derivada e integral.
+            </p>
+            <p>
+                Além desses estudos, tarefas durante esse período também foram realizadas. A normalização do banco de
+                dados do Titanic foi feita em conjunto pela sala.
+
+            </p>
+            <p>
+                Também desenvolvemos exercícios com base em uma tabela que continha todos aqueles que já fizeram parte
+                do grupo de heróis da Marvel, os Vingadores. Lá também haviam dados referentes a cada um desses
+                personagens, logo foi possível plotar determinados gráficos com dados específicos que desejássemos
+                exibir e analisar. Os conteúdos vistos durante as aulas e o exercício realizado com a tabela de heróis
+                podem ser encontrados <a
+                    href="https://drive.google.com/drive/folders/1onZB_Y3TFhF44LHZfpmqhGSZ7iqYMG8P?usp=sharing"
+                    target="_blank" id="link">AQUI</a>.
+            </p>
+        </section>
+        <section id="return">
+            <a href="../Página Inicial/index.html" id="return_bottom">
+                <i class="bi bi-caret-left"></i>
+                Voltar
+            </a>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2023 Matheus Paes de Camargo Vieira</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>

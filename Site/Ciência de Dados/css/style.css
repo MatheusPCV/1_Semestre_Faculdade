@@ -43,7 +43,7 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(../img/LOGO.jpg);
+    background-image: url(../img/LOGO.webp);
 }
 
 header:after {
@@ -144,11 +144,10 @@ p {
     width: 70vw;
 }
 
-#link{
+#link {
     color: blue;
     text-decoration: none;
 }
-
 
 /*SlideShow1*/
 #imgs {
@@ -172,20 +171,9 @@ p {
     height: 100%;
 }
 
-#slides6 {
-    display: flex;
-    width: 600%;
-    height: 100%;
-}
-
 #slide3 {
     /*100/3 = 33.33*/
     width: 33.3333333333333333333333333%;
-    transition: .5s;
-}
-
-#slide6 {
-    width: 16.6666666667%;
     transition: .5s;
 }
 
@@ -229,23 +217,11 @@ img {
 }
 
 #radio2A:checked~.first {
-    margin-left: -16.6666666667%;
+    margin-left: -33.3333333333333333333333333%;
 }
 
 #radio3A:checked~.first {
-    margin-left: -33.3333333334%;
-}
-
-#radio4A:checked~.first {
-    margin-left: -50%;
-}
-
-#radio5A:checked~.first {
-    margin-left: -66.6666666667%;
-}
-
-#radio6A:checked~.first {
-    margin-left: -83.3333333334%;
+    margin-left: -66.6666666666666666666666666%;
 }
 
 
